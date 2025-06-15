@@ -1,2 +1,2 @@
-# wp-multisite-ultimo
-WP Multisite Ultimo
+# wp-multisite-subscriptions
+WP Multisite Subscriptions
