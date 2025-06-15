@@ -1,0 +1,61 @@
+{
+  "name": "WPMultisite/wp-multisite-subscriptions",
+  "url": "https://wpmultisite.com",
+  "description": "The WordPress Multisite Website as a Service (WaaS) plugin.",
+  "version": "2.3.3",
+  "authors": [
+    {
+      "name": "Arindo Duque",
+      "email": "arindo@wpultimo.com",
+      "homepage": "https://wpultimo.com"
+    },
+    {
+      "name": "David Stone",
+      "homepage": "https://github.com/superdav42"
+    }
+    {
+      "name": "WPMultisite.com",
+      "homepage": "https://wpmultisite.com"
+    }
+  ],
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.4.30"
+  },
+  "require-dev": {
+    "composer/installers": "1.9.0",
+    "phpunit/phpunit": "^9.6.22",
+    "yoast/phpunit-polyfills": "^1.1.3",
+    "woocommerce/woocommerce-sniffs": "^1.0.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "archive": {
+    "exclude": [
+      "tests",
+      "bin",
+      "phpunit.xml.dist",
+      "composer.lock",
+      ".phpcs.xml.dist",
+      ".circleci",
+      "vendor",
+      "addons",
+      ".idea",
+      "node_modules",
+      ".gitignore",
+      ".phpcs.xml.dist",
+      ".phpunit.result.cache",
+      "build.sh",
+      "package.json",
+      "package-lock.json",
+      "setuptest.sh"
+    ]
+  }
+}
